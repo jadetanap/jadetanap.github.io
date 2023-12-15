@@ -1,6 +1,100 @@
- /* Carousel image sizes */
+/* Add a black background to the title */
+
+
+#about h2.text-center,
+#classes h2.text-center,
+#hobbies h2.text-center {
+    background-color:#000;
+    color: white; /* Set text color to white for better visibility */
+    padding: 15px; /* Add padding for spacing */
+    border-radius: 15px; /* Optional: Add rounded corners */
+}
+
+/* Body font */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Headings font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar brand font */
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar links font */
+.navbar-nav a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Section titles font */
+#about h2, #classes h2, #hobbies h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Card titles font */
+.card-title {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Card text font */
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+    /* Carousel image sizes */
         #hobbyCarousel .carousel-item img {
             width: 100%; /* responsive width */
             height: 500px; /* keep the height fixed height */
             object-fit: cover; /* don't want the image to be distorted */
         }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: white; /* Bootstrap light color */
+            color: #343a40; /* Bootstrap dark color */
+        }
+
+        h2 {
+            color: #96B6C5; /* Bootstrap primary color */
+        }
+
+        h5.card-title {
+            color: black; /* Bootstrap primary color */
+        }
+
+        .navbar {
+            background-color: #96B6C5; /* Bootstrap dark color */
+        }
+
+        .navbar-brand img {
+            filter: brightness(0) invert(1);
+        }
+
+        .card {
+            border: 1px solid #749BC2; /* Bootstrap secondary color */
+            border-radius: 10px;
+            transition: transform 0.3s;
+            background-color: lightblue;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        #hobbies {
+            text-align: center;
+        }
+
+        #hobbyCarousel img {
+            border-radius: 10px;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+        }
+       
